@@ -26,5 +26,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/postgresql-bigm:latest
             ghcr.io/${{ github.actor }}/postgresql-bigm:16
